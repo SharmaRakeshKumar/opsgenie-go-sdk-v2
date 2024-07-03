@@ -43,6 +43,7 @@ type UpdateRequest struct {
 	client.BaseRequest
 	Id          string
 	Name        string     `json:"name,omitempty"`
+	TeamId      string     `json:"name,omitempty"`
 	Description string     `json:"description,omitempty"`
 	Visibility  Visibility `json:"visibility,omitempty"`
 	Tags        []string   `json:"tags,omitempty"`
